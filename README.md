@@ -1,6 +1,46 @@
-# 「Resetful API 设计规范」
+## 「Resetful API 设计规范」
+=================
 
-> ----------------------
+> 该仓库整理了目前比较流行的 resetful api 设计规范，为了方便处理规范带来
+
+Table of Contents
+=================
+
+      * [「Resetful API 设计规范」](#resetful-api-设计规范)
+      * [关于「能愿动词」的使用](#关于能愿动词的使用)
+      * [Protocol](#protocol)
+      * [API Root URL](#api-root-url)
+      * [Versioning](#versioning)
+         * [在 URL 中嵌入版本编号](#在-url-中嵌入版本编号)
+         * [通过媒体类型来指定版本信息](#通过媒体类型来指定版本信息)
+      * [Endpoints](#endpoints)
+      * [HTTP 动词](#http-动词)
+      * [Filtering](#filtering)
+      * [Authentication](#authentication)
+      * [Response](#response)
+         * [200 ok](#200-ok)
+         * [201 Created](#201-created)
+         * [202 Accepted](#202-accepted)
+         * [204 No Content](#204-no-content)
+         * [3xx 重定向](#3xx-重定向)
+         * [400 Bad Request](#400-bad-request)
+         * [401 Unauthorized](#401-unauthorized)
+         * [403 Forbidden](#403-forbidden)
+         * [404 Not Found](#404-not-found)
+         * [405 Method Not Allowd](#405-method-not-allowd)
+         * [406 Not Acceptable](#406-not-acceptable)
+         * [408 Request Timeout](#408-request-timeout)
+         * [409 Gonfilct](#409-gonfilct)
+         * [410 Gone](#410-gone)
+         * [413 Request Entity Too Large](#413-request-entity-too-large)
+         * [414 Request-URI Too Long](#414-request-uri-too-long)
+         * [415 Unsupported Media Type](#415-unsupported-media-type)
+         * [429 Too Many Request](#429-too-many-request)
+         * [500 Internal Server Error](#500-internal-server-error)
+         * [503 Service Unavailable](#503-service-unavailable)
+      * [版权声明](#版权声明)
+      * [建议参考](#建议参考)
+      * [LICENSE](#license)
 
 ## 关于「能愿动词」的使用
 
@@ -725,3 +765,27 @@ Connection: keep-alive
 [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 
 [HTTP 状态码- 维基百科](https://zh.wikipedia.org/zh-hans/HTTP%E7%8A%B6%E6%80%81%E7%A0%81)
+
+## LICENSE
+
+MIT License
+
+Copyright (c) 2018 godruoyi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
