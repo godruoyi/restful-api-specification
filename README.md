@@ -1,10 +1,10 @@
-## RESETful API 设计规范
+## RESTful API 设计规范
 
-该仓库整理了目前比较流行的 `RESETful api` 设计规范，为了方便讨论规范带来的问题及争议，现把该文档托管于 `Github`，欢迎大家补充！！
+该仓库整理了目前比较流行的 `RESTful api` 设计规范，为了方便讨论规范带来的问题及争议，现把该文档托管于 `Github`，欢迎大家补充！！
 
 ## Table of Contents
 
-  * [RESETful API 设计规范](#resetful-api-设计规范)
+  * [RESTful API 设计规范](#restful-api-设计规范)
   * [关于「能愿动词」的使用](#关于能愿动词的使用)
   * [Protocol](#protocol)
   * [API Root URL](#api-root-url)
