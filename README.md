@@ -1,6 +1,6 @@
 ## RESETful API 设计规范
 
-该仓库整理了目前比较流行的 `resetful api` 设计规范，为了方便讨论规范带来的问题及争议，现把该文档托管于 `Github`，欢迎大家补充！！
+该仓库整理了目前比较流行的 `RESETful api` 设计规范，为了方便讨论规范带来的问题及争议，现把该文档托管于 `Github`，欢迎大家补充！！
 
 ## Table of Contents
 
