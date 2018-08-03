@@ -583,7 +583,7 @@ Cache-Control: no-cache, private
 Date: Sun, 24 Jun 2018 13:17:02 GMT
 Connection: keep-alive
 
-"message":"Token Signature could not be verified.","error_code": "40100"}
+{"message":"Token Signature could not be verified.","error_code": "40100"}
 ```
 
 ### 403 Forbidden
